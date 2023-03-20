@@ -32,6 +32,15 @@ function Main() {
       <div className="py-10">
         <h1 className="text-[#1D537C] font-bold text-[46px]">Zamonaviy kasblardan <br /> birini o’rganing</h1>
       </div>
+      <div className="grid grid-cols-3 gap-2">
+        <div className="card ">
+            <div className="flex gap-3 font-semibold items-center text0[#262626] text-3xl">
+                <img src="./images/c1.png" alt="" />
+                <p>Python kursi</p>
+            </div>
+            <p className="text-[#002D4F] text-xl leading-[34px]">Lorem ipsum dolor sit amet consectetur. Libero leo at semdolor sit amet  </p>
+        </div>
+      </div>
     </div>
   );
 }
