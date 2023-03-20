@@ -33,13 +33,57 @@ function Main() {
         <h1 className="text-[#1D537C] font-bold text-[46px]">Zamonaviy kasblardan <br /> birini o’rganing</h1>
       </div>
       <div className="grid grid-cols-3 gap-2">
-        <div className="card ">
-            <div className="flex gap-3 font-semibold items-center text0[#262626] text-3xl">
+      <div className="card border-transparent w-auto px-5 py-6">
+            <div className="flex gap-7 justify-start font-semibold items-center text-[#262626] text-2xl py-3">
                 <img src="./images/c1.png" alt="" />
                 <p>Python kursi</p>
             </div>
-            <p className="text-[#002D4F] text-xl leading-[34px]">Lorem ipsum dolor sit amet consectetur. Libero leo at semdolor sit amet  </p>
+            <p className="text-[#002D4F] py-4 text-lg leading-[34px]">Agar siz ingliz tilini bilsangiz <br /> kursni bitirmasdan ish <br /> topishingiz mumkin bo’ladi... </p>
+            <a href="#" className="text-[#0A66BA] text-xl hover:underline transition-all duration-150">Batafsil →</a>
         </div>
+        <div className="card border-transparent w-auto px-5 py-6">
+            <div className="flex gap-7 justify-start font-semibold items-center text-[#262626] text-2xl py-3">
+                <img src="./images/c2.png" alt="" />
+                <p>Grafik dizayn</p>
+            </div>
+            <p className="text-[#002D4F] py-4 text-lg leading-[34px]">Kurs davomida dizayn <br /> qoidalari va grafik <br /> dasturlarda ishlash o’rgatiladi </p>
+            <a href="#" className="text-[#0A66BA] text-xl hover:underline transition-all duration-150">Batafsil →</a>
+        </div>
+        <div className="card border-transparent w-auto px-5 py-6">
+            <div className="flex gap-7 justify-start font-semibold items-center text-[#262626] text-2xl py-3">
+                <img src="./images/c3.png" alt="" />
+                <p>Backend kursi</p>
+            </div>
+            <p className="text-[#002D4F] py-4 text-lg leading-[34px]">Agar siz ingliz tilini bilsangiz <br /> kursni bitirmasdan ish <br /> topishingiz mumkin bo’ladi... </p>
+            <a href="#" className="text-[#0A66BA] text-xl hover:underline transition-all duration-150">Batafsil →</a>
+        </div>
+        <div className="card border-transparent w-auto px-5 py-6">
+            <div className="flex gap-7 justify-start font-semibold items-center text-[#262626] text-2xl py-3">
+                <img src="./images/c4.png" alt="" />
+                <p>Android kursi</p>
+            </div>
+            <p className="text-[#002D4F] py-4 text-lg leading-[34px]">Agar siz ingliz tilini bilsangiz <br /> kursni bitirmasdan ish <br /> topishingiz mumkin bo’ladi... </p>
+            <a href="#" className="text-[#0A66BA] text-xl hover:underline transition-all duration-150">Batafsil →</a>
+        </div>
+        <div className="card border-transparent w-auto px-5 py-6">
+            <div className="flex gap-7 justify-start font-semibold items-center text-[#262626] text-2xl py-3">
+                <img src="./images/c5.png" alt="" />
+                <p>Frontend kursi</p>
+            </div>
+            <p className="text-[#002D4F] py-4 text-lg leading-[34px]">Bunda o'quvchilar Web <br /> sahifalar va tezkor, xavfsiz <br /> ilovalar ishlab chiqadi..</p>
+            <a href="#" className="text-[#0A66BA] text-xl hover:underline transition-all duration-150">Batafsil →</a>
+        </div>
+        <div className="card border-transparent w-auto px-5 py-6">
+            <div className="flex gap-7 justify-start font-semibold items-center text-[#262626] text-2xl py-3">
+                <img src="./images/c6.png" alt="" />
+                <p>Savodxonlik kursi</p>
+            </div>
+            <p className="text-[#002D4F] py-4 text-lg leading-[34px]">Siz bunda Microsoft <br /> kompaniyasining Windows <br /> operatsion tizimni o’rganasiz...</p>
+            <a href="#" className="text-[#0A66BA] text-xl hover:underline transition-all duration-150">Batafsil →</a>
+        </div>
+      </div>
+      <div>
+        
       </div>
     </div>
   );
