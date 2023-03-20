@@ -1,13 +1,14 @@
 import React from "react";
 
+
 function Main() {
   return (
-    <div className="px-16 bg-white pt-10">
+    <div className="px-16 bg-white pt-10 ">
       <div className="flex justify-between items-center my-16">
         <div className="font-bold w-1/2 text-[56px]  text-[#1D537C] leading-[84px]">
           <h1>Biz haqimizda ma’lumotlarni bilib oling</h1>
         </div>
-        <div className="w-1/2 text-[#3D3D3D] font-medium text-xl leading-[30px]">
+        <div className="animate__fadeInRight animate__animated w-1/2 text-[#3D3D3D] font-medium text-xl leading-[30px">
           <p>
             Codial-Zamonaviy kasblar Akademiyasi 2021 yilning 18-yanvar kuni
             Muhammad Amin Naziraliyev tomonidan asos solingan. Hozirga qadar

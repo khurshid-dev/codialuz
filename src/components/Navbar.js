@@ -1,15 +1,17 @@
 import React, { Component } from "react";
 
+
+
 export class Navbar extends Component {
   render() {
     return (
-      <div className="fixed bg-white z-20 py-5 flex justify-between px-16 w-full items-center">
+      <div className="fixed bg-white z-20 py-5 flex justify-between px-16 w-full items-center ">
         {/* navbar */}
 
-        <div>
-          <img src="./images/logo.svg" alt="Logo" />
+        <div className="animate__fadeInDown animate__animated ">
+          <img src="./images/logo.svg" alt="Logo" className="cursor-pointer"/>
         </div>
-        <div className="links flex justify-center gap-7 list-none font-normal text-base text">
+        <div className="links flex justify-center gap-7 list-none font-normal text-base text animate__fadeInRight animate__animated " >
           <li>
             <a href="#">Kurslar</a>
           </li>
