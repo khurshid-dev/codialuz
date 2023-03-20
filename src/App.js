@@ -1,10 +1,15 @@
-import './App.css';
+import "./App.css";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-   <div>
-    <h1>Website Codial</h1>
-   </div>
+    <div className="">
+      <Navbar />
+      <Header />
+      <Main />
+    </div>
   );
 }
 
