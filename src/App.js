@@ -1,11 +1,11 @@
+import React, { useEffect } from 'react';
 import "./App.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
-import 'animate.css' ;
-import React, { useEffect } from 'react';
-import WOW from 'wow.js';
+import 'animate.css';
+import WOW from 'wowjs'
 import 'wowjs/css/libs/animate.css';
 
 
