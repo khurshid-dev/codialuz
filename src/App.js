@@ -5,7 +5,7 @@ import Main from "./components/Main";
 import Navbar from "./components/Navbar";
 import 'animate.css' ;
 import React, { useEffect } from 'react';
-import WOW from 'wow.js';
+import WOW from 'wowjs';
 import 'wowjs/css/libs/animate.css';
 
 

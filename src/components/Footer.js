@@ -130,8 +130,9 @@ function Footer() {
        
       </div>
       <div className="px-16 py-10">
-        <h1 className="text-[#1D537C] font-bold text-[46px]">Codialni tanlash uchun <br /> 9ta sabab</h1>
+        <h1 className="animate__fadeInLeft wow text-[#1D537C] font-bold text-[46px]">Codialni tanlash uchun <br /> 9ta sabab</h1>
         <div className="grid justify-items-center  grid-cols-3 gap-5 py-10">
+          <div className="animate__fadeInLeft wow">
           <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px]">
             <div className="flex gap-5 items-center mb-5">
               <img src="./images/i1.png" alt="" />
@@ -139,6 +140,8 @@ function Footer() {
             </div>
             <p className="text-base text-[#002D4F] font-normal">Doimiy rivojlanishda bo’lgan professional ustozlar</p>
           </div>
+          </div>
+          <div className="animate__fadeInUp wow">
           <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px]">
             <div className="flex gap-5 items-center mb-5">
               <img src="./images/i2.png" alt="" />
@@ -146,6 +149,8 @@ function Footer() {
             </div>
             <p className="text-base text-[#002D4F] font-normal">50% chegirma yutish uchun imkoniyat</p>
           </div>
+          </div>
+          <div className="animate__fadeInRight wow">
           <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px]">
             <div className="flex gap-5 items-center mb-5">
               <img src="./images/i3.png" alt="" />
@@ -153,6 +158,8 @@ function Footer() {
             </div>
             <p className="text-base text-[#002D4F] font-normal">Yangi texnologiyalar va o’quv rejalar orqali dars olib boriladi</p>
           </div>
+          </div>
+          <div className="animate__fadeInLeft wow">
           <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px]">
             <div className="flex gap-5 items-center mb-5">
               <img src="./images/i4.png" alt="" />
@@ -160,6 +167,8 @@ function Footer() {
             </div>
             <p className="text-base text-[#002D4F] font-normal">Bitirayotganda 10tadan 30ta gacha loyiha bilan bitiradi</p>
           </div>
+          </div>
+          <div className="animate__fadeInUp wow">
           <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px]">
             <div className="flex gap-5 items-center mb-5">
               <img src="./images/i6.png" alt="" />
@@ -167,6 +176,8 @@ function Footer() {
             </div>
             <p className="text-base text-[#002D4F] font-normal">Darslar Farg’ona, Marg’ilon va Andijon filiallarida olib boriladi</p>
           </div>
+          </div>
+          <div className="animate__fadeInRight wow">
           <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px]">
             <div className="flex gap-5 items-center mb-5">
               <img src="./images/i6.png" alt="" />
@@ -174,6 +185,8 @@ function Footer() {
             </div>
             <p className="text-base text-[#002D4F] font-normal">Akademik yordamchi ustozlar mavjudligi</p>
           </div>
+          </div>
+          <div className="animate__fadeInLeft wow">
           <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px]">
             <div className="flex gap-5 items-center mb-5">
               <img src="./images/i7.png" alt="" />
@@ -181,6 +194,8 @@ function Footer() {
             </div>
             <p className="text-base text-[#002D4F] font-normal">Darslar videoga olinib, online darslik sifatida yuboriladi</p>
           </div>
+          </div>
+          <div className="animate__fadeInUp wow">
           <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px]">
             <div className="flex gap-5 items-center mb-5">
               <img src="./images/i8.png" alt="" />
@@ -188,12 +203,15 @@ function Footer() {
             </div>
             <p className="text-base text-[#002D4F] font-normal">Call center va co-working xizmatlari mavjudligi</p>
           </div>
+          </div>
+          <div className="animate__fadeInRight wow">
           <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px]">
             <div className="flex gap-5 items-center mb-5">
               <img src="./images/i9.png" alt="" />
               <h1 className="font-semibold text-xl">Chegirmalar</h1>
             </div>
             <p className="text-base text-[#002D4F] font-normal">Bizda turli xil chegirmalar mavjudligi</p>
+          </div>
           </div>
           {/* <i class="fa-brands fa-telegram fa-fade fa-2xl"></i> */}
         </div>
