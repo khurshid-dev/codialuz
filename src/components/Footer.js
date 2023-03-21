@@ -255,39 +255,39 @@ function Footer() {
           <h1 className="animate__fadeInLeft wow text-[#1D537C] font-bold text-[46px]">
             Codial o’quv markazi <br /> asoschisi haqida
           </h1>
-          <div className="flex py-10 gap-10 items-center">
+          <div className="flex py-10 gap-10 items-center animate__fadeInLeft wow">
             <img src="./images/boss.png" alt="" />
             <div>
-              <h1 className="font-medium text-xl text-[#3D3D3D] mb-10">
+              <h1 className="font-medium text-xl text-[#3D3D3D] mb-10 animate__fadeInLeft wow">
                 Lorem ipsum dolor sit amet consectetur. Sodales sed mollis diam
                 massa sodales sem id aliquet Sodales sed mollis diam massa
                 sodales sem id aliquet
               </h1>
-              <div className="flex items-center gap-5 my-5">
+              <div className="flex items-center gap-5 my-5 animate__fadeInLeft wow">
                 <i className="fa-solid fa-check text-lg text-yellow-400 bg-[#1D537C] rounded-full px-2 py-1"></i>
                 <h1 className="font-medium text-xl text-[#3D3D3D]">
                   Lorem ipsum dolor sit amet consectetur.
                 </h1>
               </div>
-              <div className="flex items-center gap-5 my-5">
+              <div className="flex items-center gap-5 my-5 animate__fadeInLeft wow " data-wow-delay="0.2s">
                 <i className="fa-solid fa-check text-lg text-yellow-400 bg-[#1D537C] rounded-full px-2 py-1"></i>
                 <h1 className="font-medium text-xl text-[#3D3D3D]">
                   Lorem ipsum dolor sit amet consectetur.
                 </h1>
               </div>
-              <div className="flex items-center gap-5 my-5">
+              <div className="flex items-center gap-5 my-5 animate__fadeInLeft wow" data-wow-delay="0.3s">
                 <i className="fa-solid fa-check text-lg text-yellow-400 bg-[#1D537C] rounded-full px-2 py-1"></i>
                 <h1 className="font-medium text-xl text-[#3D3D3D]">
                   Lorem ipsum dolor sit amet consectetur.
                 </h1>
               </div>
-              <div className="flex items-center gap-5 my-5">
+              <div className="flex items-center gap-5 my-5 animate__fadeInLeft wow " data-wow-delay="0.4s">
                 <i className="fa-solid fa-check text-lg text-yellow-400 bg-[#1D537C] rounded-full px-2 py-1"></i>
                 <h1 className="font-medium text-xl text-[#3D3D3D]">
                   Lorem ipsum dolor sit amet consectetur.
                 </h1>
               </div>
-              <div className="flex items-center gap-5 my-5">
+              <div className="flex items-center gap-5 my-5 animate__fadeInLeft wow" data-wow-delay="0.5s">
                 <i className="fa-solid fa-check text-lg text-yellow-400 bg-[#1D537C] rounded-full px-2 py-1"></i>
                 <h1 className="font-medium text-xl text-[#3D3D3D]">
                   Lorem ipsum dolor sit amet consectetur.
@@ -295,7 +295,7 @@ function Footer() {
               </div>
             </div>
           </div>
-          <h1 className="animate__fadeInLeft my-10 wow text-[#1D537C] font-bold text-[46px]">
+          <h1 className="animate__fadeInLeft my-10 wow text-[#1D537C] font-bold text-[46px] animate__fadeInLeft wow">
           Savollaringiz bo’lsa <br /> raqamingizni qoldiring
         </h1>
         </div>
