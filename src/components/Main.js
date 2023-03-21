@@ -5,7 +5,7 @@ function Main() {
   return (
     <div className="px-16 bg-white pt-10 ">
       <div className="flex justify-between items-center my-16">
-        <div className="font-bold w-1/2 text-[56px]  text-[#1D537C] leading-[84px]">
+        <div className="font-bold w-1/2 text-[46px]  text-[#1D537C] leading-[84px]">
           <h1>Biz haqimizda ma’lumotlarni bilib oling</h1>
         </div>
         <div className="animate__fadeInRight animate__animated w-1/2 text-[#3D3D3D] font-medium text-xl leading-[30px">
@@ -34,7 +34,7 @@ function Main() {
         <h1 className="text-[#1D537C] font-bold text-[46px]">Zamonaviy kasblardan <br /> birini o’rganing</h1>
       </div>
       <div className="grid grid-cols-3 gap-2">
-      <div className="card border-transparent w-auto px-5 py-6">
+      <div className="card-transparent w-auto px-5 py-6">
             <div className="flex gap-7 justify-start font-semibold items-center text-[#262626] text-2xl py-3">
                 <img src="./images/c1.png" alt="" />
                 <p>Python kursi</p>
@@ -42,7 +42,7 @@ function Main() {
             <p className="text-[#002D4F] py-4 text-lg leading-[34px]">Agar siz ingliz tilini bilsangiz <br /> kursni bitirmasdan ish <br /> topishingiz mumkin bo’ladi... </p>
             <a href="#" className="text-[#0A66BA] text-xl hover:underline transition-all duration-150">Batafsil →</a>
         </div>
-        <div className="card border-transparent w-auto px-5 py-6">
+        <div className="card-transparent w-auto px-5 py-6">
             <div className="flex gap-7 justify-start font-semibold items-center text-[#262626] text-2xl py-3">
                 <img src="./images/c2.png" alt="" />
                 <p>Grafik dizayn</p>
@@ -50,7 +50,7 @@ function Main() {
             <p className="text-[#002D4F] py-4 text-lg leading-[34px]">Kurs davomida dizayn <br /> qoidalari va grafik <br /> dasturlarda ishlash o’rgatiladi </p>
             <a href="#" className="text-[#0A66BA] text-xl hover:underline transition-all duration-150">Batafsil →</a>
         </div>
-        <div className="card border-transparent w-auto px-5 py-6">
+        <div className="card-transparent w-auto px-5 py-6">
             <div className="flex gap-7 justify-start font-semibold items-center text-[#262626] text-2xl py-3">
                 <img src="./images/c3.png" alt="" />
                 <p>Backend kursi</p>
@@ -58,7 +58,7 @@ function Main() {
             <p className="text-[#002D4F] py-4 text-lg leading-[34px]">Agar siz ingliz tilini bilsangiz <br /> kursni bitirmasdan ish <br /> topishingiz mumkin bo’ladi... </p>
             <a href="#" className="text-[#0A66BA] text-xl hover:underline transition-all duration-150">Batafsil →</a>
         </div>
-        <div className="card border-transparent w-auto px-5 py-6">
+        <div className="card-transparent w-auto px-5 py-6">
             <div className="flex gap-7 justify-start font-semibold items-center text-[#262626] text-2xl py-3">
                 <img src="./images/c4.png" alt="" />
                 <p>Android kursi</p>
@@ -66,7 +66,7 @@ function Main() {
             <p className="text-[#002D4F] py-4 text-lg leading-[34px]">Agar siz ingliz tilini bilsangiz <br /> kursni bitirmasdan ish <br /> topishingiz mumkin bo’ladi... </p>
             <a href="#" className="text-[#0A66BA] text-xl hover:underline transition-all duration-150">Batafsil →</a>
         </div>
-        <div className="card border-transparent w-auto px-5 py-6">
+        <div className="card-transparent w-auto px-5 py-6">
             <div className="flex gap-7 justify-start font-semibold items-center text-[#262626] text-2xl py-3">
                 <img src="./images/c5.png" alt="" />
                 <p>Frontend kursi</p>
@@ -74,7 +74,7 @@ function Main() {
             <p className="text-[#002D4F] py-4 text-lg leading-[34px]">Bunda o'quvchilar Web <br /> sahifalar va tezkor, xavfsiz <br /> ilovalar ishlab chiqadi..</p>
             <a href="#" className="text-[#0A66BA] text-xl hover:underline transition-all duration-150">Batafsil →</a>
         </div>
-        <div className="card border-transparent w-auto px-5 py-6">
+        <div className="card-transparent w-auto px-5 py-6">
             <div className="flex gap-7 justify-start font-semibold items-center text-[#262626] text-2xl py-3">
                 <img src="./images/c6.png" alt="" />
                 <p>Savodxonlik kursi</p>
@@ -83,8 +83,28 @@ function Main() {
             <a href="#" className="text-[#0A66BA] text-xl hover:underline transition-all duration-150">Batafsil →</a>
         </div>
       </div>
-      <div>
-        
+      <div className="py-10">
+      <h1 className="text-[#1D537C] font-bold text-[46px]">Bizning jamoamiz bilan <br /> tanishing</h1>
+      <div className="grid grid-cols-3 gap-5 my-10">
+        <div className="cart  relative">
+          <img src="./images/d2.png" alt="abs-el" className="absolute top-4 left-4" />
+          <img src="./images/d1.png" alt="d1picture" />
+          <h1 className="font-medium text-xl my-3">Falonchiyev Falonchi</h1>
+          <p className="text-[#717171] text-lg">Grafik dizaynerlik bo’yicha 3 yil tajribaga ega mutaxassis</p>
+        </div>
+        <div className="cart  relative">
+          <img src="./images/d2.png" alt="abs-el" className="absolute top-4 left-4" />
+          <img src="./images/d1.png" alt="d1picture" />
+          <h1 className="font-medium text-xl my-3">Falonchiyev Falonchi</h1>
+          <p className="text-[#717171] text-lg">Grafik dizaynerlik bo’yicha 3 yil tajribaga ega mutaxassis</p>
+        </div>
+        <div className="cart  relative">
+          <img src="./images/d2.png" alt="abs-el" className="absolute top-4 left-4" />
+          <img src="./images/d1.png" alt="d1picture" />
+          <h1 className="font-medium text-xl my-3">Falonchiyev Falonchi</h1>
+          <p className="text-[#717171] text-lg">Grafik dizaynerlik bo’yicha 3 yil tajribaga ega mutaxassis</p>
+        </div>
+      </div>
       </div>
     </div>
   );

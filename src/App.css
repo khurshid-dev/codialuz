@@ -1,45 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-.navbar{
-  background: rgba( 255, 255, 255, 0.35 );
-  backdrop-filter: blur( 3px );
-  -webkit-backdrop-filter: blur( 3px );
+.navbar {
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
-.Header_btn{
-font-family: 'Poppins';
-font-size: 16px;
-color: #fff;
-background-color: #1D537C;
-padding: 10px 30px;
-border-radius: 10px;
-transition: all 0.45s ease;
-background-image: linear-gradient(#FF9D00, #FF9D00);
-background-position: 0% 100%;
-background-repeat: no-repeat;
-background-size: 0% 100%;
-cursor: pointer;
+.Header_btn {
+  font-family: "Poppins";
+  font-size: 16px;
+  color: #fff;
+  background-color: #1d537c;
+  padding: 10px 30px;
+  border-radius: 10px;
+  transition: all 0.45s ease;
+  background-image: linear-gradient(#ff9d00, #ff9d00);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  cursor: pointer;
 }
 
-.Header_btn:hover{
+.Header_btn:hover {
   background-size: 100% 100%;
-  background-image: linear-gradient(#FF9D00 ,#FF9D00);
+  background-image: linear-gradient(#ff9d00, #ff9d00);
   color: black;
 }
 
 .links li {
   transition: all 0.45s ease;
+<<<<<<< HEAD
   outline: none;
+=======
+>>>>>>> 469553bbd7dc60df7d7b8a02e587aa4e01084f39
 }
 
-.links li:hover{
-  transform: translateY(-4px) scale(1.06) ;
+.links li:hover {
+  transform: translateY(-4px) scale(1.06);
 }
