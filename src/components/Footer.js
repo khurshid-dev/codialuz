@@ -145,13 +145,10 @@ function Footer() {
         </div>
       </div>
       <div className="px-16 py-10">
-<<<<<<< HEAD
         <h1 className="animate__fadeInLeft wow text-[#1D537C] font-bold text-[46px]">Codialni tanlash uchun <br /> 9ta sabab</h1>
-=======
         <h1 className="text-[#1D537C] font-bold text-[46px]">
           Codialni tanlash uchun <br /> 9ta sabab
         </h1>
->>>>>>> 45728d6545247957dbb9768ea62a7396cd64ecd7
         <div className="grid justify-items-center  grid-cols-3 gap-5 py-10">
           <div className="animate__fadeInLeft wow">
           <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px]">
