@@ -37,8 +37,18 @@
 
 .links li {
   transition: all 0.45s ease;
+  outline: none;
 }
 
 .links li:hover {
   transform: translateY(-4px) scale(1.06);
+}
+
+.card-transparent{
+  border: 1px solid transparent;
+  transition: all .3s ease;
+}
+.card-transparent:hover{
+  border: 1px solid grey;
+  transform: scale(1.1);
 }
