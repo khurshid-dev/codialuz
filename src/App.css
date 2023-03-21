@@ -37,12 +37,18 @@
 
 .links li {
   transition: all 0.45s ease;
-<<<<<<< HEAD
   outline: none;
-=======
->>>>>>> 469553bbd7dc60df7d7b8a02e587aa4e01084f39
 }
 
 .links li:hover {
   transform: translateY(-4px) scale(1.06);
+}
+
+.card-transparent{
+  border: 1px solid transparent;
+  transition: all .3s ease;
+}
+.card-transparent:hover{
+  border: 1px solid grey;
+  transform: scale(1.1);
 }
