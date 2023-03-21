@@ -36,7 +36,8 @@ cursor: pointer;
 }
 
 .links li {
-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+  outline: none;
 }
 
 .links li:hover{
