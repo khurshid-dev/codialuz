@@ -5,9 +5,7 @@ import React, { Component } from "react";
 export class Navbar extends Component {
   render() {
     return (
-      <div className="fixed bg-white z-20 py-5 flex justify-between px-16 w-full items-center ">
-        {/* navbar */}
-
+      <div className="fixed navbar z-20 py-5 flex justify-between px-16 w-full items-center ">
         <div className="animate__fadeInDown animate__animated ">
           <img src="./images/logo.svg" alt="Logo" className="cursor-pointer"/>
         </div>
