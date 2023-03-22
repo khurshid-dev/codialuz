@@ -10,7 +10,7 @@ function Header() {
             <button className="Header_btn">Batafsil →</button>
         </div>
         <div className='absolute -bottom-5 -right-16'>
-            <img src="./images/header-1.png" alt="" className='animate__fadeInUp wow' />
+            <img src="./images/header-1.png" alt="" className=' animate__fadeInUp wow' />
         </div>
         <img src="./images/abs-1.png" className='header_img absolute -bottom-4 left-0 animate__fadeInLeft wow' alt='abs' />
         <img src="./images/abs-2.png" className='animate__fadeInDown wow absolute top-20 left-[40%] ' alt='abs' />

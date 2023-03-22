@@ -28,7 +28,7 @@ export class Navbar extends Component {
             <a href="#">A’loqa</a>
           </li>
           <li>
-            <a href="#">+9989 (99) 123 45 67</a>
+            <a href="#"><i className="fa-solid fa-phone"></i> +9989 (99) 123 45 67</a>
           </li>
         </div>
       </div>

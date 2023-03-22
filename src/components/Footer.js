@@ -315,7 +315,7 @@ function Footer() {
       </div>
       <div className="footer bg-[#1D537C] pt-10 pb-10 px-16">
         <div className="flex items-center justify-center gap-20 ">
-          <div className="bg-white rounded-2xl w-4/12 flex flex-col items-start px-7 py-10 gap-5">
+          <div className="bg-white rounded-2xl w-4/12 flex flex-col items-start px-7 py-10 gap-5 wow animate__fadeInLeft">
             <h1>Savollar uchun</h1>
             <input
               type="text"
@@ -328,12 +328,12 @@ function Footer() {
               className="py-2 px-3 rounded-lg w-full bg-[#F3F3F3]"
             />
             <div className="flex items-end w-full justify-end">
-              <button className="py-3 rounded-lg px-10 bg-[#FF9D00]">
+              <button className="Input_btn py-3 rounded-lg px-10 bg-[#FF9D00]">
                 Yuborish
               </button>
             </div>
           </div>
-          <div className="relative overflow-hidden rounded-md">
+          <div className="relative overflow-hidden rounded-md wow animate__fadeInRight">
             <a
               href="https://yandex.uz/maps/10336/phergana/search/codial/?utm_medium=mapframe&utm_source=maps"
               className="text-[#eee] text-xs absolute top-0"
@@ -358,9 +358,9 @@ function Footer() {
         </div>
         <div className="flex items-center mt-10 justify-between">
           <div>
-            <img src="./images/footerLogo.png" alt="" />
+            <img src="./images/footerLogo.png" alt="" className="cursor-pointer" />
           </div>
-          <div className="text-xl text-white flex gap-7">
+          <div className="icons_footer text-xl text-white flex gap-7">
             <a href="https://telegram.org/">
               <i className="fa-brands fa-telegram"></i>
             </a>
@@ -371,7 +371,7 @@ function Footer() {
               <i className="fa-brands fa-youtube"></i>
             </a>
           </div>
-          <div className="flex gap-3 text-white items-center text-base">
+          <div className="phone_num flex gap-3 text-white items-center text-base">
             <i className="fa-solid fa-phone text-white"></i>
             <p>+9989 (99) 123 45 67</p>
           </div>

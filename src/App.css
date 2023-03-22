@@ -55,3 +55,38 @@
   border: 1px solid grey;
   transform: scale(1.1);
 }
+
+.icons_footer a{
+  transition: all 0.45s ease;
+  outline: none;
+}
+.icons_footer a:hover {
+  transform: translateY(-4px) scale(1.06);
+}
+.phone_num{
+  transition: all .5s ease;
+  cursor: pointer;
+}
+.phone_num:hover{
+  text-shadow: 0 0 1px #fff,
+	0 0 3px #fff,
+	0 0 5px #fff;
+}
+
+.Input_btn{
+  font-family: "Poppins";
+  font-size: 16px;
+  background-color: #ff9d00;
+  padding: 10px 30px;
+  border-radius: 10px;
+  transition: all 0.45s ease;
+  background-image: linear-gradient(#1d537c,#1d537c );
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  cursor: pointer;
+}
+.Input_btn:hover{
+  background-size: 100% 100%;
+  color: white;
+}
