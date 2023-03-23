@@ -585,7 +585,7 @@ function Header() {
                 <i className="fa-brands fa-youtube"></i>
               </a>
             </div>
-            <div className="phone_num flex gap-3 text-white items-center text-base max-[430px]:hidden">
+            <div className="phone_num flex gap-3 text-white items-center text-base max-lg:hidden">
               <i className="fa-solid fa-phone text-white"></i>
               <p>+9989 (99) 123 45 67</p>
             </div>

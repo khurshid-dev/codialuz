@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 
-
 export class Navbar extends Component {
   render() {
     return (
@@ -12,7 +11,14 @@ export class Navbar extends Component {
           <img src="./images/logo.svg" alt="Logo" className="cursor-pointer"/>
         </div>
         </Link>
-        <div className="links flex justify-center gap-7 list-none font-normal text-base text animate__fadeInRight animate__animated max-[430px]:hidden" >
+        <div className="hidden max-md:block ">
+        <i class="menu_btn fa-solid fa-bars text-2xl cursor-pointer"></i>
+        </div>
+        <div className='menu'>
+          <div className="exit_btn">
+          <i class="fa-solid fa-xmark"></i>
+          </div>
+          <div className="menu_links">
           <li>
             <a href="#">Kurslar</a>
           </li>
@@ -30,6 +36,27 @@ export class Navbar extends Component {
           </li>
           <li>
             <a href="#"><i className="fa-solid fa-phone"></i> +9989 (99) 123 45 67</a>
+          </li>
+          </div>
+        </div>
+        <div className="links flex justify-center gap-7 list-none font-normal text-base text animate__fadeInRight animate__animated max-md:hidden max-lg:gap-3" >
+          <li>
+            <a href="#">Kurslar</a>
+          </li>
+          <li>
+            <a href="#">Jamoa</a>
+          </li>
+          <li>
+            <a href="#">Natijalarimiz</a>
+          </li>
+          <li>
+            <a href="#">Yangiliklar</a>
+          </li>
+          <li>
+            <Link to={'/header/#footer'}>A’loqa</Link>
+          </li>
+          <li>
+            <a href="#" className="max-lg:hidden"><i className="fa-solid fa-phone"></i> +9989 (99) 123 45 67</a>
           </li>
         </div>
       </div>
