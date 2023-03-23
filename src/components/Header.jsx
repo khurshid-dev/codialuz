@@ -46,7 +46,7 @@ function Header() {
     setCurr(curr => curr === 0 ? sources.length - 1 : curr - 1)
     setCurr1(curr1 => curr1 === 0 ? sources.length - 1 : curr1 - 1)
     setCurr2(curr2 => curr2 === 0 ? sources.length - 1 : curr2 - 1)
-    console.log(curr, curr1);
+    console.log(curr, curr1, curr2);
   }
   const next = () => {
     setCurr(curr => curr === sources.length - 1 ? 0 : curr + 1)
@@ -87,16 +87,12 @@ function Header() {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-2 py-10 gap-7">
         <div className="grid md:grid-cols-2 grid-cols-1 py-10 gap-7">
           <img src={sources[curr]} alt="m1" className="w-full h-full rounded-2xl transition-transform duration-500 ease-linear" />
-          <div className="grid grid-cols-2 gap-7">
-            <div className="flex text-4xl h-28 items-center justify-center gap-5">
           <div className="grid sm:grid-cols-2 grid-cols-1 gap-7">
             <div className="flex text-4xl h-28 items-center justify-center gap-5 ">
               <p className="opacity-50 cursor-pointer" onClick={prew}>←</p>
               <p onClick={next} className='cursor-pointer'>→</p></div>
-            <div></div>
             <div className='sm:block hidden'></div>
             <img src={sources[curr1]} alt="" className="w-full h-full object-cover rounded-2xl transition-transform duration-500 ease-linear" />
             <img src={sources[curr2]} alt="" className="w-full h-full object-cover rounded-2xl transition-transform duration-500 ease-linear" />
@@ -532,6 +528,7 @@ function Header() {
             </h1>
           </div>
         </div>
+        <div id='footer' className="footer bg-[#1D537C] pt-10 pb-10 px-5 lg:px-16">
           <div className="flex items-center justify-center gap-20 max-lg:gap-10 max-md:flex-wrap ">
             <div className="bg-white rounded-2xl w-4/12 max-lg:w-1/2 max-md:w-[440px] flex flex-col items-start px-7 py-10 gap-5 wow animate__fadeInLeft">
               <h1>Savollar uchun</h1>
@@ -573,7 +570,6 @@ function Header() {
               ></iframe>
             </div>
           </div>
-          <div className="flex items-end mt-10 justify-between">
           <div className="flex sm:items-end items-center mt-10 justify-between">
             <div>
               <img src="./images/footerLogo.png" alt="" className="cursor-pointer" />
