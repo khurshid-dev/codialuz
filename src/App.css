@@ -110,6 +110,7 @@
   padding: 30px;
   top: 0;
   right: -400px;
+  opacity: 0;
   border: 1px solid red;
   width: 400px;
   height: 100vh;
@@ -124,13 +125,14 @@
   list-style: none;
   font-size: 22px;
   text-transform: uppercase;
-  transition: all .3s ease
+  transition: all .3s ease;
 }
 .menu li:hover{
   transform: translateY(-4px) scale(1.06);
 }
 .active{
   right: 0;
+  opacity: 1;
 }
 .exit_btn{
   font-size: 30px;
