@@ -4,7 +4,6 @@
   background: rgba(255, 255, 255, 0.35);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
-  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
@@ -104,4 +103,48 @@
   .Header_btn{
     font-size: 14px;
   }
+}
+
+.menu{
+  position: fixed;
+  padding: 30px;
+  top: 0;
+  right: -400px;
+  opacity: 0;
+  border: 1px solid red;
+  width: 400px;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: all .3s ease;
+}
+.menu li{
+  text-decoration: none;
+  list-style: none;
+  font-size: 22px;
+  text-transform: uppercase;
+  transition: all .3s ease;
+}
+.menu li:hover{
+  transform: translateY(-4px) scale(1.06);
+}
+.active{
+  right: 0;
+  opacity: 1;
+}
+.exit_btn{
+  font-size: 30px;
+  text-align: right;
+  cursor: pointer;
+}
+.menu_links{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 30px;
 }
