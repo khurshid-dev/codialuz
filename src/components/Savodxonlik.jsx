@@ -3,21 +3,21 @@ import React from 'react'
 function Savodxonlik() {
   return (
     <div>
-        <div className='header'>
-              <div className="w-full min-h-[100vh] header-child"></div>
-            <div className='w-full px-16 min-h-[100vh] pt-20 text-white absolute top-0 left-0 grid md:grid-cols-2 grid-cols-1 gap-5 place-items-center'>
-              <div className=''>
-                <h1 className='text-[56px] leading-[80px] font-bold'>Kompyuter savodxonlik kursi</h1>
+        <div className='header lg:h-[100vh] sm:h-[700px] min-[476px]:h-[800px] h-[850px]'>
+          <div className="w-full lg:h-[100vh] sm:h-[700px] min-[476px]:h-[800px] h-[850px] header-child"></div>
+          <div className='w-full lg:px-16 h-full px-10 pt-20 text-white  top-0 left-0 absolute grid lg:grid-cols-2 grid-cols-1 gap-5 lg:place-items-center'>
+              <div className='min-w-[1096px]:text-center text-start'>
+                <h1 className='sm:text-[56px] text-4xl leading-[80px] font-bold'>Kompyuter savodxonlik kursi</h1>
                 <p className='text-xl leading-9'>
                 Kompyuter savodxonligi kursi dasturlashga yo'naltirilgan bo'lib, bu kursni bitirgan o’quvchi dasturlashni qiyinchiliksiz boshlay oladi.
                 </p>
               </div>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/-NoS3W4qKbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <iframe  className='rounded-lg lg:w-[560px] w-auto sm:w-[560px] mx-auto lg:mx-10' height="315" src="https://www.youtube.com/embed/-NoS3W4qKbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
-        <div className='my-10 px-16'>
+        <div className='my-10 md:px-16 px-5'>
           <h1 className='font-bold text-[46px] text-[#1D537C] '>Kurs davomida <br /> quyidagilar o'tiladi:</h1>
-          <div className='py-10 grid grid-cols-3 justify-items-center gap-5'>
+          <div className='py-10 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-items-center gap-5'>
           <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px]">
               <div className="flex gap-5 items-center mb-5">
                 <img src="./images/sav1.png" alt="" />
@@ -59,62 +59,58 @@ function Savodxonlik() {
             </div>
           </div>
           <div className="my-10">
-          <h1 className="animate__fadeInLeft wow text-[#1D537C] font-bold text-[46px]">
-            Codial o’quv markazi <br /> asoschisi haqida
-          </h1>
-          <div className="flex py-10 gap-10 items-center animate__fadeInLeft wow">
-            <img src="./images/boss.png" alt="" />
-            <div>
-              <h1 className="font-medium text-xl text-[#3D3D3D] mb-10 animate__fadeInLeft wow leading-8">
-                Lorem ipsum dolor sit amet consectetur. Sodales sed mollis diam
-                massa sodales sem id aliquet Sodales sed mollis diam massa
-                sodales sem id aliquet
-              </h1>
-              <div className="flex items-center gap-5 my-5 animate__fadeInLeft wow">
-                <i className="fa-solid fa-check text-lg text-yellow-400 bg-[#1D537C] rounded-full px-2 py-1"></i>
-                <h1 className="font-medium text-xl text-[#3D3D3D]">
-                  Lorem ipsum dolor sit amet consectetur.
+            <h1 className="animate__fadeInLeft wow text-[#1D537C] font-bold text-[46px] max-lg:text-[40px] max-md:text-[30px] max-[430px]:text-[23px]">
+              Codial o’quv markazi <br /> asoschisi haqida
+            </h1>
+            <div className="flex max-lg:flex-wrap max-lg:justify-center py-10 gap-10 items-center animate__fadeInLeft wow">
+              <img src="./images/boss.png" alt="" className='max-lg:w-[600px] max-md:w-[500px]' />
+              <div className='max-lg:w-[750px]'>
+                <h1 className="font-medium text-xl text-[#3D3D3D] mb-10 animate__fadeInLeft wow leading-8 max-lg:text-[22px] max-[430px]:text-lg">
+                  Lorem ipsum dolor sit amet consectetur. Sodales sed mollis diam
+                  massa sodales sem id aliquet Sodales sed mollis diam massa
+                  sodales se id aliquet
                 </h1>
-              </div>
-              <div
-                className="flex items-center gap-5 my-5 animate__fadeInLeft wow "
-                data-wow-delay="0.2s"
-              >
-                <i className="fa-solid fa-check text-lg text-yellow-400 bg-[#1D537C] rounded-full px-2 py-1"></i>
-                <h1 className="font-medium text-xl text-[#3D3D3D]">
-                  Lorem ipsum dolor sit amet consectetur.
-                </h1>
-              </div>
-              <div
-                className="flex items-center gap-5 my-5 animate__fadeInLeft wow"
-                data-wow-delay="0.3s"
-              >
-                <i className="fa-solid fa-check text-lg text-yellow-400 bg-[#1D537C] rounded-full px-2 py-1"></i>
-                <h1 className="font-medium text-xl text-[#3D3D3D]">
-                  Lorem ipsum dolor sit amet consectetur.
-                </h1>
-              </div>
-              <div
-                className="flex items-center gap-5 my-5 animate__fadeInLeft wow "
-                data-wow-delay="0.4s"
-              >
-                <i className="fa-solid fa-check text-lg text-yellow-400 bg-[#1D537C] rounded-full px-2 py-1"></i>
-                <h1 className="font-medium text-xl text-[#3D3D3D]">
-                  Lorem ipsum dolor sit amet consectetur.
-                </h1>
-              </div>
-              <div
-                className="flex items-center gap-5 my-5 animate__fadeInLeft wow"
-                data-wow-delay="0.5s"
-              >
-                <i className="fa-solid fa-check text-lg text-yellow-400 bg-[#1D537C] rounded-full px-2 py-1"></i>
-                <h1 className="font-medium text-xl text-[#3D3D3D]">
-                  Lorem ipsum dolor sit amet consectetur.
-                </h1>
+                <div className="flex items-center justify-center gap-5 my-5 animate__fadeInLeft wow max-lg:text-lg">
+                  <i className="fa-solid fa-check text-lg text-yellow-400 bg-[#1D537C] rounded-full px-2 py-1 max-lg:text-base max-[430px]:text-sm"></i>
+                  <h1 className="max-lg:text-lg font-medium text-xl text-[#3D3D3D] max-[430px]:text-sm">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </h1>
+                </div>
+                <div className="flex items-center justify-center gap-5 my-5 animate__fadeInLeft wow  max-lg:text-lg"
+                  data-wow-delay="0.2s"
+                >
+                  <i className="fa-solid fa-check text-lg text-yellow-400 bg-[#1D537C] rounded-full px-2 py-1 max-lg:text-base max-[430px]:text-sm"></i>
+                  <h1 className="max-lg:text-lg font-medium text-xl text-[#3D3D3D] max-[430px]:text-sm">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </h1>
+                </div>
+                <div className="flex items-center justify-center gap-5 my-5 animate__fadeInLeft wow max-lg:text-lg"
+                  data-wow-delay="0.3s"
+                >
+                  <i className="fa-solid fa-check text-lg text-yellow-400 bg-[#1D537C] rounded-full px-2 py-1 max-lg:text-base max-[430px]:text-sm"></i>
+                  <h1 className="max-lg:text-lg font-medium text-xl text-[#3D3D3D] max-[430px]:text-sm">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </h1>
+                </div>
+                <div className="flex items-center justify-center gap-5 my-5 animate__fadeInLeft wow max-lg:text-lg"
+                  data-wow-delay="0.4s"
+                >
+                  <i className="fa-solid fa-check text-lg text-yellow-400 bg-[#1D537C] rounded-full px-2 py-1 max-lg:text-base max-[430px]:text-sm"></i>
+                  <h1 className="max-lg:text-lg font-medium text-xl text-[#3D3D3D] max-[430px]:text-sm">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </h1>
+                </div>
+                <div className="flex items-center justify-center gap-5 my-5 animate__fadeInLeft wow max-lg:text-lg"
+                  data-wow-delay="0.5s"
+                >
+                  <i className="fa-solid fa-check text-lg text-yellow-400 bg-[#1D537C] rounded-full px-2 py-1 max-lg:text-base max-[430px]:text-sm"></i>
+                  <h1 className="max-lg:text-lg font-medium text-xl text-[#3D3D3D] max-[430px]:text-sm">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </h1>
+                </div>
               </div>
             </div>
           </div>
-        </div>
         </div>
     </div>
   )

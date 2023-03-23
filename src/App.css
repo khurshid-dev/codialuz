@@ -13,12 +13,15 @@
   box-sizing: border-box;
   font-family: "Poppins";
 }
+html, body{
+  width: 100%;
+}
 .header{
   background: url(../public/images/back2.png);
-  width: 100%;
-  height: 100vh;
 }
+
 .header-child{
+  /* z-index: 9; */
   background: rgba(21, 52, 133, 0.6);
   backdrop-filter: blur(6px)
 }
@@ -114,9 +117,13 @@
   border: 1px solid red;
   width: 400px;
   height: 100vh;
-  background: rgba(255, 255, 255, 0.35);
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
+  /* background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); */
+  background: rgba(21, 52, 133, 0.6);
+  backdrop-filter: blur(20px);
+  z-index: 99999;
+  color: white;
   border: 1px solid rgba(255, 255, 255, 0.18);
   transition: all .3s ease;
 }

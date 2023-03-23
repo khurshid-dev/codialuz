@@ -1,15 +1,15 @@
 import React from 'react'
 
-function Front() {
+function Back() {
   return (
     <div>
         <div className='header lg:h-[100vh] sm:h-[700px] min-[476px]:h-[800px] h-[850px]'>
           <div className="w-full lg:h-[100vh] sm:h-[700px] min-[476px]:h-[800px] h-[850px] header-child"></div>
           <div className='w-full lg:px-16 h-full px-10 pt-20 text-white  top-0 left-0 absolute grid lg:grid-cols-2 grid-cols-1 gap-5 lg:place-items-center'>
               <div className='min-w-[1096px]:text-center text-start'>
-                <h1 className='sm:text-[56px] text-4xl leading-[80px] font-bold'>Frontend kursi</h1>
+                <h1 className='sm:text-[56px] text-4xl leading-[80px] font-bold'>Backend kursi</h1>
                 <p className='text-xl leading-9'>
-                Front-End dasturlovchi veb-saytning foydalanuvchiga ko’rinadigan qismini tayyorlash bilan shug’ullanadi. Masalan siz veb-saytlarda ko’radigan oddiygina tugma uchun ham Front-End dasturlovchi mehnat qilib kod yozadi.
+                Back-End dasturlovchi veb-saytning bazasi, serveri va shunga o’xshash ishlari bilan shug’ullanandi. Back-End so’zning ma’nosidan ham ma’lumki bu yo’nalishdagi dasturchi asosan foydalanuvchiga ko’rinmaydiga ishlar bilan shug’ullanadi. 
                 </p>
               </div>
               <iframe  className='rounded-lg lg:w-[560px] w-auto sm:w-[560px] mx-auto lg:mx-10' height="315" src="https://www.youtube.com/embed/-NoS3W4qKbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -116,4 +116,4 @@ function Front() {
   )
 }
 
-export default Front
+export default Back

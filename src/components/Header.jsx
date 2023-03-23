@@ -88,14 +88,14 @@ function Header() {
           </div>
         </div>
         <div className="grid md:grid-cols-2 grid-cols-1 py-10 gap-7">
-          <img src={sources[curr]} alt="m1" className="w-full h-full rounded-2xl transition-transform duration-500 ease-linear" />
+          <img src={sources[curr]}  alt="m1" className="w-full h-full rounded-2xl transition-transform animate__animated animate__backInRight duration-500 ease-linear" />
           <div className="grid sm:grid-cols-2 grid-cols-1 gap-7">
             <div className="flex text-4xl h-28 items-center justify-center gap-5 ">
-              <p className="opacity-50 cursor-pointer" onClick={prew}>←</p>
-              <p onClick={next} className='cursor-pointer'>→</p></div>
+              <p className=" hover:opacity-50 cursor-pointer" onClick={prew}>←</p>
+              <p onClick={next} className='cursor-pointer hover:opacity-50'>→</p></div>
             <div className='sm:block hidden'></div>
-            <img src={sources[curr1]} alt="" className="w-full h-full object-cover rounded-2xl transition-transform duration-500 ease-linear" />
-            <img src={sources[curr2]} alt="" className="w-full h-full object-cover rounded-2xl transition-transform duration-500 ease-linear" />
+            <img src={sources[curr1]} alt="" className="animate__animated animate__bounce w-full h-full object-cover rounded-2xl transition-all duration-500 ease-out " />
+            <img src={sources[curr2]} alt="" className="animate__animated animate__bounce w-full h-full object-cover rounded-2xl transition-transform duration-500 ease-linear" />
           </div>
         </div>
         <div className="py-10 animate__fadeInLeft wow">
@@ -109,7 +109,7 @@ function Header() {
                 <p>Python kursi</p>
               </div>
               <p className=" text-[#002D4F] py-4 text-lg leading-[34px] max-md:text-base">Agar siz ingliz tilini bilsangiz <br /> kursni bitirmasdan ish <br /> topishingiz mumkin bo’ladi... </p>
-              <a href="#" className="text-[#0A66BA] text-xl hover:underline transition-all duration-150">Batafsil →</a>
+              <Link to={'/python'} className="text-[#0A66BA] text-xl hover:underline transition-all duration-150">Batafsil →</Link>
             </div>
           </div>
           <div className="card-transparent w-[380px] max-lg:w-[350px] max-md:w-[300px] px-5 py-3">
@@ -119,7 +119,7 @@ function Header() {
                 <p>Grafik dizayn</p>
               </div>
               <p className=" text-[#002D4F] py-4 text-lg leading-[34px] max-md:text-base">Kurs davomida dizayn <br /> qoidalari va grafik <br /> dasturlarda ishlash o’rgatiladi </p>
-              <a href="#" className="text-[#0A66BA] text-xl hover:underline transition-all duration-150">Batafsil →</a>
+              <Link to={'/grafikdizayn'} className="text-[#0A66BA] text-xl hover:underline transition-all duration-150">Batafsil →</Link>
             </div>
           </div>
           <div className="card-transparent w-[380px] max-lg:w-[350px] max-md:w-[300px] px-5 py-3">
@@ -129,7 +129,7 @@ function Header() {
                 <p>Backend kursi</p>
               </div>
               <p className=" text-[#002D4F] py-4 text-lg leading-[34px] max-md:text-base">Agar siz ingliz tilini bilsangiz <br /> kursni bitirmasdan ish <br /> topishingiz mumkin bo’ladi... </p>
-              <a href="#" className="text-[#0A66BA] text-xl hover:underline transition-all duration-150">Batafsil →</a>
+              <Link to={'/backend'} className="text-[#0A66BA] text-xl hover:underline transition-all duration-150">Batafsil →</Link>
             </div>
           </div>
           <div className="card-transparent w-[380px] max-lg:w-[350px] max-md:w-[300px] px-5 py-3">
@@ -139,7 +139,7 @@ function Header() {
                 <p>Android kursi</p>
               </div>
               <p className=" text-[#002D4F] py-4 text-lg leading-[34px] max-md:text-base">Agar siz ingliz tilini bilsangiz <br /> kursni bitirmasdan ish <br /> topishingiz mumkin bo’ladi... </p>
-              <a href="#" className="text-[#0A66BA] text-xl hover:underline transition-all duration-150">Batafsil →</a>
+              <Link to={'/android'} className="text-[#0A66BA] text-xl hover:underline transition-all duration-150">Batafsil →</Link>
             </div>
           </div>
           <div className="card-transparent w-[380px] max-lg:w-[350px] max-md:w-[300px] px-5 py-3">
@@ -149,7 +149,7 @@ function Header() {
                 <p>Frontend kursi</p>
               </div>
               <p className=" text-[#002D4F] py-4 text-lg leading-[34px] max-md:text-base">Bunda o'quvchilar Web <br /> sahifalar va tezkor, xavfsiz <br /> ilovalar ishlab chiqadi..</p>
-              <a href="#" className="text-[#0A66BA] text-xl hover:underline transition-all duration-150">Batafsil →</a>
+              <Link to={'/frontend'} className="text-[#0A66BA] text-xl hover:underline transition-all duration-150">Batafsil →</Link>
             </div>
           </div>
           <div className="card-transparent w-[380px] max-lg:w-[350px] max-md:w-[300px] px-5 py-3">

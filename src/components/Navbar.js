@@ -14,14 +14,14 @@ function Navbar() {
   }
   
   return (
-    <div className="fixed navbar z-20 py-5 flex justify-between px-16 w-full items-center ">
+  <div className="fixed navbar  z-20 py-5 flex justify-between px-16 w-full items-center ">
       <Link to={'/'}>
       <div className="animate__fadeInDown animate__animated ">
         <img src="./images/logo.svg" alt="Logo" className="cursor-pointer"/>
       </div>
       </Link>
       <div className="hidden max-md:block ">
-      <i onClick={showMenu} className="menu_btn fa-solid fa-bars text-2xl cursor-pointer"></i>
+      <i onClick={showMenu} className="menu_btn text-gray-600 fa-solid fa-bars text-2xl cursor-pointer"></i>
       </div>
       { activeEl &&(
         <div className='menu active'>
