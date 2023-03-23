@@ -10,7 +10,6 @@ import Savodxonlik from './components/Savodxonlik';
 
 
 
-
 function App() {
   useEffect(() => {
     const wow = new WOW.WOW({
@@ -28,7 +27,6 @@ function App() {
         <Routes>
           <Route path='/' element={<Header/>}/>
           <Route path='/savodxonlik' element={<Savodxonlik />}/>
-          <Route path='/header/#footer' element={<Header></Header>}/>
         </Routes>
      </BrowserRouter>
   );

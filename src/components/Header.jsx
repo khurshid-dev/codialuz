@@ -1,10 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 import 'wowjs/css/libs/animate.css';
 import 'swiper/css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Link } from 'react-router-dom';
 
 function Header() {
+  const [sources, setSources] = useState([
+    "./images/m1.png",
+    "./images/m2.avif",
+    "./images/m3.webp",
+  ])
+  const [curr, setCurr] = useState(0)
+  const [curr1, setCurr1] = useState(1)
+  const [curr2, setCurr2] = useState(2)
+
+  const prew = ()=> {
+    setCurr(curr =>  curr === 0 ? sources.length - 1 : curr - 1)
+    setCurr1(curr1 =>  curr1 === 0 ? sources.length - 1 : curr1 - 1)
+    setCurr2(curr2 =>  curr2 === 0 ? sources.length - 1 : curr2 - 1)
+    console.log(curr, curr1);
+  }
+  const next = ()=> {
+    setCurr(curr =>  curr === sources.length - 1 ? 0 : curr + 1)
+    setCurr1(curr1 =>  curr1 === sources.length - 1 ? 0 : curr1 + 1)
+    setCurr2(curr2 =>  curr2 === sources.length - 1 ? 0 : curr2 + 1)
+    console.log(curr, curr1, curr2);
+  }
   return (
     <div>
       <div className='bg-[#F8F8F8] pt-16 flex justify-between items-center w-full h-[120vh] relative px-16 overflow-hidden'>
@@ -39,14 +60,14 @@ function Header() {
         </div>
       </div>
       <div className="grid grid-cols-2 py-10 gap-7">
-        <img src="./images/m1.png" alt="m1" className="w-full" />
+        <img src={sources[curr]} alt="m1" className="w-full h-full rounded-2xl transition-transform duration-500 ease-linear" />
         <div className="grid grid-cols-2 gap-7">
             <div className="flex text-4xl h-28 items-center justify-center gap-5">
-            <p className="opacity-50">←</p>
-            <p>→</p></div>
+            <p className="opacity-50 cursor-pointer" onClick={prew}>←</p>
+            <p onClick={next} className='cursor-pointer'>→</p></div>
             <div></div>            
-            <img src="./images/m2.png" alt="" className="w-full" />
-            <img src="./images/m2.png" alt=""  className="w-full" />
+            <img src={sources[curr1]} alt="" className="w-full h-full object-cover rounded-2xl transition-transform duration-500 ease-linear" />
+            <img src={sources[curr2]} alt="" className="w-full h-full object-cover rounded-2xl transition-transform duration-500 ease-linear" />
         </div>
       </div>
       <div className="py-10 animate__fadeInLeft wow">
