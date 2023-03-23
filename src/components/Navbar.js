@@ -12,7 +12,7 @@ export class Navbar extends Component {
           <img src="./images/logo.svg" alt="Logo" className="cursor-pointer"/>
         </div>
         </Link>
-        <div className="links flex justify-center gap-7 list-none font-normal text-base text animate__fadeInRight animate__animated " >
+        <div className="links flex justify-center gap-7 list-none font-normal text-base text animate__fadeInRight animate__animated max-[430px]:hidden" >
           <li>
             <a href="#">Kurslar</a>
           </li>
