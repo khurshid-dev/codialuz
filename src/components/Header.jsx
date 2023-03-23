@@ -73,8 +73,8 @@ function Header() {
       <div className="py-10 animate__fadeInLeft wow">
         <h1 className="text-[#1D537C] font-bold text-[46px]">Zamonaviy kasblardan <br /> birini o’rganing</h1>
       </div>
-      <div className="grid grid-cols-3 gap-y-5">
-      <div className="card-transparent w-[380px] px-5 py-3">
+      <div className="flex justify-around flex-wrap gap-y-5">
+      <div className="card-transparent w-[380px] max-lg:w-[350px] px-5 py-3">
             <div className=" animate__fadeInLeft wow">
             <div className="h-28 flex gap-7 justify-start font-semibold items-center text-[#262626] text-2xl py-3">
                 <img src="./images/c1.png" alt="" />
@@ -84,7 +84,7 @@ function Header() {
             <a href="#" className="text-[#0A66BA] text-xl hover:underline transition-all duration-150">Batafsil →</a>
             </div>
         </div>
-        <div className="card-transparent w-[380px] px-5 py-3">
+        <div className="card-transparent w-[380px] max-lg:w-[350px] px-5 py-3">
            <div className="animate__fadeInUp wow">
            <div className="h-28 flex gap-7 justify-start font-semibold items-center text-[#262626] text-2xl py-3">
                 <img src="./images/c2.png" alt="" />
@@ -94,7 +94,7 @@ function Header() {
             <a href="#" className="text-[#0A66BA] text-xl hover:underline transition-all duration-150">Batafsil →</a>
            </div>
         </div>
-        <div className="card-transparent w-[380px] px-5 py-3">
+        <div className="card-transparent w-[380px] max-lg:w-[350px] px-5 py-3">
             <div className="animate__fadeInRight wow">
             <div className="h-28 flex gap-7 justify-start font-semibold items-center text-[#262626] text-2xl py-3">
                 <img src="./images/c3.png" alt="" />
@@ -104,7 +104,7 @@ function Header() {
             <a href="#" className="text-[#0A66BA] text-xl hover:underline transition-all duration-150">Batafsil →</a>
             </div>
         </div>
-        <div className="card-transparent w-[380px] px-5 py-3">
+        <div className="card-transparent w-[380px] max-lg:w-[350px] px-5 py-3">
            <div className="animate__fadeInLeft wow">
            <div className="h-28 flex gap-7 justify-start font-semibold items-center text-[#262626] text-2xl py-3">
                 <img src="./images/c4.png" alt="" />
@@ -114,7 +114,7 @@ function Header() {
             <a href="#" className="text-[#0A66BA] text-xl hover:underline transition-all duration-150">Batafsil →</a>
            </div>
         </div>
-        <div className="card-transparent w-[380px] px-5 py-3">
+        <div className="card-transparent w-[380px] max-lg:w-[350px] px-5 py-3">
           <div className="animate__fadeInUp wow">
           <div className="h-28 flex gap-7 justify-start font-semibold items-center text-[#262626] text-2xl py-3">
                 <img src="./images/c5.png" alt="" />
@@ -124,7 +124,7 @@ function Header() {
             <a href="#" className="text-[#0A66BA] text-xl hover:underline transition-all duration-150">Batafsil →</a>
           </div>
         </div>
-        <div className="card-transparent w-[380px] px-5 py-3">
+        <div className="card-transparent w-[380px] max-lg:w-[350px] px-5 py-3">
             <div className="animate__fadeInRight wow">
             <div className="h-28 flex gap-7 justify-start font-semibold items-center text-[#262626] text-2xl py-3">
                 <img src="./images/c6.png" alt="" />
@@ -136,10 +136,10 @@ function Header() {
         </div>
       </div>
       <div className="py-10">
-      <h1 className="animate__fadeInLeft wow text-[#1D537C] font-bold text-[46px]">Bizning jamoamiz bilan <br /> tanishing</h1>
+      <h1 className="animate__fadeInLeft wow text-[#1D537C] font-bold text-[46px] max-lg:text-[40px]">Bizning jamoamiz bilan <br /> tanishing</h1>
       <div className=" my-10 animate__fadeInRight wow">
       <Swiper
-        slidesPerView={3.3}
+        slidesPerView={"3.2"}
         spaceBetween={30}
         className="mySwiper"
         grabCursor={true}
@@ -335,14 +335,14 @@ function Header() {
           </Swiper>
         </div>
       </div>
-      <div className="px-16 py-10">
-        <h1 className="animate__fadeInLeft wow text-[#1D537C] font-bold text-[46px]">
+      <div className="px-16 py-10 max-lg:px-12">
+        <h1 className="animate__fadeInLeft wow text-[#1D537C] font-bold text-[46px] max-lg:text-[40px]">
           Codialni tanlash uchun <br /> 9ta sabab
         </h1>
 
-        <div className="grid justify-items-center  grid-cols-3 gap-5 py-10">
+        <div className="flex justify-around flex-wrap gap-4 py-10">
           <div className="animate__fadeInLeft wow">
-            <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px]">
+            <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px] h-[200px] max-lg:w-[260px]">
               <div className="flex gap-5 items-center mb-5">
                 <img src="./images/i1.png" alt="" />
                 <h1 className="font-semibold text-xl">Ustozlar</h1>
@@ -353,7 +353,7 @@ function Header() {
             </div>
           </div>
           <div className="animate__fadeInUp wow">
-            <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px]">
+            <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px] h-[200px] max-lg:w-[260px]">
               <div className="flex gap-5 items-center mb-5">
                 <img src="./images/i2.png" alt="" />
                 <h1 className="font-semibold text-xl">Grantlar</h1>
@@ -364,7 +364,7 @@ function Header() {
             </div>
           </div>
           <div className="animate__fadeInRight wow">
-            <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px]">
+            <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px] h-[200px] max-lg:w-[260px]">
               <div className="flex gap-5 items-center mb-5">
                 <img src="./images/i3.png" alt="" />
                 <h1 className="font-semibold text-xl">O’quv reja</h1>
@@ -375,7 +375,7 @@ function Header() {
             </div>
           </div>
           <div className="animate__fadeInLeft wow">
-            <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px]">
+            <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px] h-[200px] max-lg:w-[260px]">
               <div className="flex gap-5 items-center mb-5">
                 <img src="./images/i4.png" alt="" />
                 <h1 className="font-semibold text-xl">Loyihalar</h1>
@@ -386,7 +386,7 @@ function Header() {
             </div>
           </div>
           <div className="animate__fadeInUp wow">
-            <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px]">
+            <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px] h-[200px] max-lg:w-[260px]">
               <div className="flex gap-5 items-center mb-5">
                 <img src="./images/i6.png" alt="" />
                 <h1 className="font-semibold text-xl">Ta’lim</h1>
@@ -398,7 +398,7 @@ function Header() {
             </div>
           </div>
           <div className="animate__fadeInRight wow">
-            <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px]">
+            <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px] h-[200px] max-lg:w-[260px]">
               <div className="flex gap-5 items-center mb-5">
                 <img src="./images/i6.png" alt="" />
                 <h1 className="font-semibold text-xl">Yordamchilar</h1>
@@ -409,7 +409,7 @@ function Header() {
             </div>
           </div>
           <div className="animate__fadeInLeft wow">
-            <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px]">
+            <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px] h-[200px] max-lg:w-[260px]">
               <div className="flex gap-5 items-center mb-5">
                 <img src="./images/i7.png" alt="" />
                 <h1 className="font-semibold text-xl">Dars videolar</h1>
@@ -420,7 +420,7 @@ function Header() {
             </div>
           </div>
           <div className="animate__fadeInUp wow">
-            <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px]">
+            <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px] h-[200px] max-lg:w-[260px]">
               <div className="flex gap-5 items-center mb-5">
                 <img src="./images/i8.png" alt="" />
                 <h1 className="font-semibold text-xl">Co-working</h1>
@@ -431,7 +431,7 @@ function Header() {
             </div>
           </div>
           <div className="animate__fadeInRight wow">
-            <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px]">
+            <div className="border border-transparent min-h-[150px] p-4 bg-[#FCFDFF] w-[300px] h-[200px] max-lg:w-[260px]">
               <div className="flex gap-5 items-center mb-5">
                 <img src="./images/i9.png" alt="" />
                 <h1 className="font-semibold text-xl">Chegirmalar</h1>
@@ -444,69 +444,65 @@ function Header() {
           {/* <i class="fa-brands fa-telegram fa-fade fa-2xl"></i> */}
         </div>
         <div className="my-10">
-          <h1 className="animate__fadeInLeft wow text-[#1D537C] font-bold text-[46px]">
+          <h1 className="animate__fadeInLeft wow text-[#1D537C] font-bold text-[46px] max-lg:text-[40px]">
             Codial o’quv markazi <br /> asoschisi haqida
           </h1>
-          <div className="flex py-10 gap-10 items-center animate__fadeInLeft wow">
-            <img src="./images/boss.png" alt="" />
-            <div>
-              <h1 className="font-medium text-xl text-[#3D3D3D] mb-10 animate__fadeInLeft wow leading-8">
+          <div className="flex max-lg:flex-wrap max-lg:justify-center py-10 gap-10 items-center animate__fadeInLeft wow">
+            <img src="./images/boss.png" alt="" className='max-lg:w-[600px]' />
+            <div className='max-lg:w-[750px]'>
+              <h1 className="font-medium text-xl text-[#3D3D3D] mb-10 animate__fadeInLeft wow leading-8 max-lg:text-[22px]">
                 Lorem ipsum dolor sit amet consectetur. Sodales sed mollis diam
-                massa sodales sem id aliquet Sodales sed mollis diam massa
-                sodales sem id aliquet
+                massa sodales sem id aliquet Sodales sed mollis diam massa 
+                sodales se id aliquet
               </h1>
-              <div className="flex items-center gap-5 my-5 animate__fadeInLeft wow">
-                <i className="fa-solid fa-check text-lg text-yellow-400 bg-[#1D537C] rounded-full px-2 py-1"></i>
-                <h1 className="font-medium text-xl text-[#3D3D3D]">
+              <div className="flex items-center justify-center gap-5 my-5 animate__fadeInLeft wow max-lg:text-lg">
+                <i className="fa-solid fa-check text-lg text-yellow-400 bg-[#1D537C] rounded-full px-2 py-1 max-lg:text-base"></i>
+                <h1 className="max-lg:text-lg font-medium text-xl text-[#3D3D3D]">
                   Lorem ipsum dolor sit amet consectetur.
                 </h1>
               </div>
-              <div
-                className="flex items-center gap-5 my-5 animate__fadeInLeft wow "
+              <div className="flex items-center justify-center gap-5 my-5 animate__fadeInLeft wow  max-lg:text-lg"
                 data-wow-delay="0.2s"
               >
-                <i className="fa-solid fa-check text-lg text-yellow-400 bg-[#1D537C] rounded-full px-2 py-1"></i>
-                <h1 className="font-medium text-xl text-[#3D3D3D]">
+                <i className="fa-solid fa-check text-lg text-yellow-400 bg-[#1D537C] rounded-full px-2 py-1 max-lg:text-base"></i>
+                <h1 className="max-lg:text-lg font-medium text-xl text-[#3D3D3D]">
                   Lorem ipsum dolor sit amet consectetur.
                 </h1>
               </div>
-              <div
-                className="flex items-center gap-5 my-5 animate__fadeInLeft wow"
+              <div className="flex items-center justify-center gap-5 my-5 animate__fadeInLeft wow max-lg:text-lg"
                 data-wow-delay="0.3s"
               >
-                <i className="fa-solid fa-check text-lg text-yellow-400 bg-[#1D537C] rounded-full px-2 py-1"></i>
-                <h1 className="font-medium text-xl text-[#3D3D3D]">
+                <i className="fa-solid fa-check text-lg text-yellow-400 bg-[#1D537C] rounded-full px-2 py-1 max-lg:text-base"></i>
+                <h1 className="max-lg:text-lg font-medium text-xl text-[#3D3D3D]">
                   Lorem ipsum dolor sit amet consectetur.
                 </h1>
               </div>
-              <div
-                className="flex items-center gap-5 my-5 animate__fadeInLeft wow "
+              <div className="flex items-center justify-center gap-5 my-5 animate__fadeInLeft wow max-lg:text-lg "
                 data-wow-delay="0.4s"
               >
-                <i className="fa-solid fa-check text-lg text-yellow-400 bg-[#1D537C] rounded-full px-2 py-1"></i>
-                <h1 className="font-medium text-xl text-[#3D3D3D]">
+                <i className="fa-solid fa-check text-lg text-yellow-400 bg-[#1D537C] rounded-full px-2 py-1 max-lg:text-base"></i>
+                <h1 className="max-lg:text-lg font-medium text-xl text-[#3D3D3D]">
                   Lorem ipsum dolor sit amet consectetur.
                 </h1>
               </div>
-              <div
-                className="flex items-center gap-5 my-5 animate__fadeInLeft wow"
+              <div className="flex items-center justify-center gap-5 my-5 animate__fadeInLeft wow max-lg:text-lg"
                 data-wow-delay="0.5s"
               >
-                <i className="fa-solid fa-check text-lg text-yellow-400 bg-[#1D537C] rounded-full px-2 py-1"></i>
-                <h1 className="font-medium text-xl text-[#3D3D3D]">
+                <i className="fa-solid fa-check text-lg text-yellow-400 bg-[#1D537C] rounded-full px-2 py-1 max-lg:text-base"></i>
+                <h1 className="max-lg:text-lg font-medium text-xl text-[#3D3D3D]">
                   Lorem ipsum dolor sit amet consectetur.
                 </h1>
               </div>
             </div>
           </div>
-          <h1 className="animate__fadeInLeft my-10 wow text-[#1D537C] font-bold text-[46px] animate__fadeInLeft wow">
+          <h1 className="animate__fadeInLeft my-10 wow text-[#1D537C] font-bold text-[46px] animate__fadeInLeft wow max-lg:text-[40px]">
             Savollaringiz bo’lsa <br /> raqamingizni qoldiring
           </h1>
         </div>
       </div>
-      <div id='footer' className="footer bg-[#1D537C] pt-10 pb-10 px-16">
-        <div className="flex items-center justify-center gap-20 ">
-          <div className="bg-white rounded-2xl w-4/12 flex flex-col items-start px-7 py-10 gap-5 wow animate__fadeInLeft">
+      <div id='footer' className="footer bg-[#1D537C] pt-10 pb-10 px-16 max-lg:px-12">
+        <div className="flex items-center justify-center gap-20 max-lg:gap-10 ">
+          <div className="bg-white rounded-2xl w-4/12 max-lg:w-1/2 flex flex-col items-start px-7 py-10 gap-5 wow animate__fadeInLeft">
             <h1>Savollar uchun</h1>
             <input
               type="text"
@@ -543,7 +539,7 @@ function Header() {
               height={"400"}
               frameborder="1"
               allowfullscreen="true"
-              className="relative"
+              className="relative max-lg:w-[400px]"
             ></iframe>
           </div>
         </div>
