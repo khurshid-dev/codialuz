@@ -6,6 +6,17 @@
   -webkit-backdrop-filter: blur(3px);
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
+::-webkit-scrollbar{
+  width: 8px;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.18);
+}
+::-webkit-scrollbar-thumb{
+  /* background-color: rgba(21, 52, 133, 0.6); */
+  background: #ff9d00;
+  border-radius: 4px;
+  cursor: grabbing;
+}
 
 * {
   padding: 0;
