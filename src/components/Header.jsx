@@ -58,16 +58,16 @@ function Header() {
     <div>
       <div className='bg-[#F8F8F8] pt-16 flex justify-between items-center w-full h-[120vh] max-[430px]:h-[80vh] relative px-16 overflow-hidden'>
         <div className='z-10 animate__fadeInLeft wow max-lg:pb-10 max-sm:pb-16'>
-          <h1 className='text-[40px] w-2/3 max-sm:w-full text-[#134062] mb-3 max-lg:text-[37px] max-md:text-[30px] font-semibold max-sm:text-[25px]'>IT—is a field that provides convenient solutions to <br className='max-sm:hidden' /> people's problems</h1>
-          <h2 className='font-medium text-[#676767] mb-3 max-lg:text-[20px] text-[22px] max-sm:text-[17px] '>Kelajak kasblarini biz bilan o’rganing</h2>
+          <h1 className='text-[40px] w-2/3 max-sm:w-full text-[#134062] mb-3 max-lg:text-[37px] max-md:text-[30px] font-semibold max-sm:text-[25px] max-[430px]:text-[20px]'>IT—is a field that provides convenient solutions to <br className='max-sm:hidden' /> people's problems</h1>
+          <h2 className='font-medium text-[#676767] mb-3 max-lg:text-[20px] text-[22px] max-sm:text-[17px] max-[430px]:text-[14px] '>Kelajak kasblarini biz bilan o’rganing</h2>
           <button className="Header_btn">Batafsil →</button>
         </div>
         <div className='absolute -bottom-5 -right-16'>
           <img src="./images/header-1.png" alt="" className=' animate__fadeInUp wow max-lg:hidden' />
         </div>
         <img src="./images/abs-1.png" className='header_img absolute -bottom-4 left-0 animate__fadeInLeft wow max-lg:-bottom-16 max-sm:-bottom-4 max-[430px]:-bottom-10' alt='abs' />
-        <img src="./images/abs-2.png" className=' animate__fadeInDown wow absolute top-20 left-[40%] max-lg:top-8 ' alt='abs' />
-        <img src="./images/abs-3.png" className='max-sm:hidden absolute top-[30%] right-4 animate__fadeInRight wow max-lg:right-8' alt='abs' />
+        <img src="./images/abs-2.png" className=' animate__fadeInDown wow absolute top-20 left-[40%] max-lg:top-8 max-[430px]:left-[10%] max-[430px]:top-1' alt='abs' />
+        <img src="./images/abs-3.png" className='absolute top-[30%] right-4 max-sm:right-0 animate__fadeInRight wow max-lg:right-8' alt='abs' />
         <img src="./images/abs-4.png" className=' absolute bottom-24 left-[30%] animate__fadeInUp wow max-lg:bottom-16 max-lg:left-[36%] max-[430px]:left-[50%]' alt='abs' />
         <img src="./images/abs-5.png" className='max-[430px]:hidden absolute bottom-0 -right-16 animate__fadeInRight wow ' alt='abs' />
       </div>
@@ -231,22 +231,22 @@ function Header() {
             O’quvchilarimizning <br /> samimiy fikrlari
           </h1>
           <div className=" my-16 animate__fadeInRight wow">
-            <Swiper
+            <Swiper 
               slidesPerView={slidesPerView}
               spaceBetween={spaceBetween}
               className="mySwiper"
               grabCursor={true}
             >
               <SwiperSlide>
-                <div className="relative min-h-[375px] w-[350px] flex items-end">
-                  <div className="text-center pt-20 rounded-2xl bg-white px-10 pb-6">
+                <div className="relative min-h-[375px] w-[350px] flex items-end max-[430px]:w-[250px]">
+                  <div className="text-center pt-20 rounded-2xl bg-white px-10 pb-6 ">
                     <img
                       src="./images/u1.png"
                       alt=""
                       className="absolute top-0 left-[50%] -translate-x-[50%]"
                     />
-                    <h1 className="font-semibold text-xl mb-3">Muhammadfotih </h1>
-                    <p className="text-sm leading-6 font-normal">
+                    <h1 className="font-semibold text-xl mb-3 max-[430px]:text-base">Muhammadfotih </h1>
+                    <p className="text-sm leading-6 font-normal max-[430px]:text-[10px]">
                       Lorem ipsum dolor sit amet consectetur. Sodales sed mollis
                       diam massa sodales sem id aliquet. Convallis consectetur
                       ullamcorper morbi iaculis sit in
@@ -258,17 +258,15 @@ function Header() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="relative min-h-[375px] w-[350px] flex items-end">
-                  <div className="text-center pt-20 rounded-2xl bg-white px-10 pb-6">
+              <div className="relative min-h-[375px] w-[350px] flex items-end max-[430px]:w-[250px]">
+                  <div className="text-center pt-20 rounded-2xl bg-white px-10 pb-6 ">
                     <img
                       src="./images/u2.png"
                       alt=""
                       className="absolute top-0 left-[50%] -translate-x-[50%]"
                     />
-                    <h1 className="font-semibold text-xl mb-3">
-                      Sarvarbek Karimov{" "}
-                    </h1>
-                    <p className="text-sm leading-6 font-normal">
+                    <h1 className="font-semibold text-xl mb-3 max-[430px]:text-base">Sarvarbek Karimov </h1>
+                    <p className="text-sm leading-6 font-normal max-[430px]:text-[10px]">
                       Lorem ipsum dolor sit amet consectetur. Sodales sed mollis
                       diam massa sodales sem id aliquet. Convallis consectetur
                       ullamcorper morbi iaculis sit in
@@ -280,15 +278,15 @@ function Header() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="relative min-h-[375px] w-[350px] flex items-end">
-                  <div className="text-center pt-20 rounded-2xl bg-white px-10 pb-6">
+              <div className="relative min-h-[375px] w-[350px] flex items-end max-[430px]:w-[250px]">
+                  <div className="text-center pt-20 rounded-2xl bg-white px-10 pb-6 ">
                     <img
                       src="./images/u3.png"
                       alt=""
                       className="absolute top-0 left-[50%] -translate-x-[50%]"
                     />
-                    <h1 className="font-semibold text-xl mb-3">Ben Richard </h1>
-                    <p className="text-sm leading-6 font-normal">
+                    <h1 className="font-semibold text-xl mb-3 max-[430px]:text-base">Ben Richard </h1>
+                    <p className="text-sm leading-6 font-normal max-[430px]:text-[10px]">
                       Lorem ipsum dolor sit amet consectetur. Sodales sed mollis
                       diam massa sodales sem id aliquet. Convallis consectetur
                       ullamcorper morbi iaculis sit in
@@ -300,15 +298,15 @@ function Header() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="relative min-h-[375px] w-[350px] flex items-end">
-                  <div className="text-center pt-20 rounded-2xl bg-white px-10 pb-6">
+              <div className="relative min-h-[375px] w-[350px] flex items-end max-[430px]:w-[250px]">
+                  <div className="text-center pt-20 rounded-2xl bg-white px-10 pb-6 ">
                     <img
                       src="./images/u1.png"
                       alt=""
                       className="absolute top-0 left-[50%] -translate-x-[50%]"
                     />
-                    <h1 className="font-semibold text-xl mb-3">Muhammadfotih </h1>
-                    <p className="text-sm leading-6 font-normal">
+                    <h1 className="font-semibold text-xl mb-3 max-[430px]:text-base">Muhammadfotih </h1>
+                    <p className="text-sm leading-6 font-normal max-[430px]:text-[10px]">
                       Lorem ipsum dolor sit amet consectetur. Sodales sed mollis
                       diam massa sodales sem id aliquet. Convallis consectetur
                       ullamcorper morbi iaculis sit in
@@ -320,17 +318,15 @@ function Header() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="relative min-h-[375px] w-[350px] flex items-end">
-                  <div className="text-center pt-20 rounded-2xl bg-white px-10 pb-6">
+              <div className="relative min-h-[375px] w-[350px] flex items-end max-[430px]:w-[250px]">
+                  <div className="text-center pt-20 rounded-2xl bg-white px-10 pb-6 ">
                     <img
                       src="./images/u2.png"
                       alt=""
                       className="absolute top-0 left-[50%] -translate-x-[50%]"
                     />
-                    <h1 className="font-semibold text-xl mb-3">
-                      Sarvarbek Karimov{" "}
-                    </h1>
-                    <p className="text-sm leading-6 font-normal">
+                    <h1 className="font-semibold text-xl mb-3 max-[430px]:text-base">Sarvarbek Karimov </h1>
+                    <p className="text-sm leading-6 font-normal max-[430px]:text-[10px]">
                       Lorem ipsum dolor sit amet consectetur. Sodales sed mollis
                       diam massa sodales sem id aliquet. Convallis consectetur
                       ullamcorper morbi iaculis sit in
@@ -342,15 +338,15 @@ function Header() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="relative min-h-[375px] w-[350px] flex items-end">
-                  <div className="text-center pt-20 rounded-2xl bg-white px-10 pb-6">
+              <div className="relative min-h-[375px] w-[350px] flex items-end max-[430px]:w-[250px]">
+                  <div className="text-center pt-20 rounded-2xl bg-white px-10 pb-6 ">
                     <img
-                      src="./images/u1.png"
+                      src="./images/u3.png"
                       alt=""
                       className="absolute top-0 left-[50%] -translate-x-[50%]"
                     />
-                    <h1 className="font-semibold text-xl mb-3">Muhammadfotih </h1>
-                    <p className="text-sm leading-6 font-normal">
+                    <h1 className="font-semibold text-xl mb-3 max-[430px]:text-base">Ben Richard </h1>
+                    <p className="text-sm leading-6 font-normal max-[430px]:text-[10px]">
                       Lorem ipsum dolor sit amet consectetur. Sodales sed mollis
                       diam massa sodales sem id aliquet. Convallis consectetur
                       ullamcorper morbi iaculis sit in
