@@ -13,37 +13,36 @@
   box-sizing: border-box;
   font-family: "Poppins";
 }
-html, body{
+html,
+body {
   width: 100%;
 }
-.header{
+.header {
   background: url(../public/images/back2.png);
 }
 
-.header-child{
+.header-child {
   /* z-index: 9; */
   background: rgba(21, 52, 133, 0.6);
-  backdrop-filter: blur(6px)
+  backdrop-filter: blur(6px);
 }
 .Header_btn {
   font-family: "Poppins";
   font-size: 16px;
   color: #fff;
-  background-color: #1d537c;
+  background: linear-gradient(to right, rgb(106, 17, 203) 0%, rgb(0 198 255) 51%, rgb(106, 17, 203) 100%);
   padding: 10px 30px;
   border-radius: 10px;
   transition: all 0.45s ease;
-  background-image: linear-gradient(#ff9d00, #ff9d00);
-  background-position: 0% 100%;
-  background-repeat: no-repeat;
-  background-size: 0% 100%;
+  background-size: 200% auto;
+  outline: none !important;
+  display: inline-block;
   cursor: pointer;
 }
 
 .Header_btn:hover {
-  background-size: 100% 100%;
-  background-image: linear-gradient(#ff9d00, #ff9d00);
-  color: black;
+  background-position: right center;
+  color: #fff;
 }
 
 .links li {
@@ -52,56 +51,56 @@ html, body{
 }
 
 .links li:hover {
-  transform: translateY(-4px) scale(1.06);
+  transform: translateY(-4px) scale(1.02);
+  color: rgb(52, 133, 255);
+  text-shadow: 0 0 1px rgb(52, 133, 255), 0 0 1px rgb(52, 133, 255), 0 0 2px rgb(52, 133, 255);
+  border-bottom: 1px solid rgb(52, 133, 255);
 }
 
 .card-transparent,
-.border-transparent
-{
+.border-transparent {
   border: 1px solid transparent;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 .card-transparent:hover,
-.border-transparent:hover{
+.border-transparent:hover {
   border: 1px solid grey;
   transform: scale(1.1);
 }
 
-.icons_footer a{
+.icons_footer a {
   transition: all 0.45s ease;
   outline: none;
 }
 .icons_footer a:hover {
   transform: translateY(-4px) scale(1.06);
 }
-.phone_num{
-  transition: all .5s ease;
+.phone_num {
+  transition: all 0.5s ease;
   cursor: pointer;
 }
-.phone_num:hover{
-  text-shadow: 0 0 1px #fff,
-	0 0 3px #fff,
-	0 0 5px #fff;
+.phone_num:hover {
+  text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 5px #fff;
 }
 
-.Input_btn{
+.Input_btn {
   font-family: "Poppins";
   font-size: 16px;
   background-color: #ff9d00;
   padding: 10px 30px;
   border-radius: 10px;
   transition: all 0.45s ease;
-  background-image: linear-gradient(#1d537c,#1d537c );
+  background-image: linear-gradient(#1d537c, #1d537c);
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 100%;
   cursor: pointer;
 }
-.Input_btn:hover{
+.Input_btn:hover {
   background-size: 100% 100%;
   color: white;
 }
-.menu{
+.menu {
   position: fixed;
   padding: 30px;
   top: 0;
@@ -117,28 +116,28 @@ html, body{
   z-index: 99999;
   color: white;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
-.menu li{
+.menu li {
   text-decoration: none;
   list-style: none;
   font-size: 22px;
   text-transform: uppercase;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
-.menu li:hover{
+.menu li:hover {
   transform: translateY(-4px) scale(1.06);
 }
-.active{
+.active {
   right: 0;
   opacity: 1;
 }
-.exit_btn{
+.exit_btn {
   font-size: 30px;
   text-align: right;
   cursor: pointer;
 }
-.menu_links{
+.menu_links {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -148,9 +147,8 @@ html, body{
   gap: 30px;
 }
 
-
 @media (max-width: 640px) {
-  .Header_btn{
+  .Header_btn {
     font-size: 14px;
   }
 }
