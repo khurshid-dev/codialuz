@@ -60,12 +60,13 @@ body {
 .card-transparent,
 .border-transparent {
   border: 1px solid transparent;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
 }
 .card-transparent:hover,
 .border-transparent:hover {
-  border: 1px solid grey;
-  transform: scale(1.1);
+  border: 2px solid rgb(55, 0, 255);
+  border-radius: 20px;
+  transform: scale(1.06);
 }
 
 .icons_footer a {
